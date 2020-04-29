@@ -1,0 +1,2615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<korsakow version="6.0.7">
+    <projects>
+        <Project>
+            <id><![CDATA[34]]></id>
+            <version><![CDATA[4]]></version>
+            <name><![CDATA[Algorithmic Documentary]]></name>
+            <settingsId><![CDATA[1]]></settingsId>
+            <movieWidth><![CDATA[1024]]></movieWidth>
+            <movieHeight><![CDATA[768]]></movieHeight>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[true]]></backgroundSoundLooping>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <backgroundColor><![CDATA[#ffffffff]]></backgroundColor>
+            <randomLinkMode><![CDATA[false]]></randomLinkMode>
+            <keepLinksOnEmptySearch><![CDATA[false]]></keepLinksOnEmptySearch>
+            <defaultInterface><![CDATA[11]]></defaultInterface>
+            <uuid><![CDATA[f1832564-2738-4438-8d89-b9d53570f9f6]]></uuid>
+        </Project>
+    </projects>
+    <settings>
+        <Settings>
+            <id><![CDATA[1]]></id>
+            <version><![CDATA[4]]></version>
+            <exportWebFiles dynamic="true"><![CDATA[true]]></exportWebFiles>
+            <adjustFilenamesOnSave dynamic="true"><![CDATA[smart]]></adjustFilenamesOnSave>
+            <putSimilarResourcesAtTop dynamic="true"><![CDATA[true]]></putSimilarResourcesAtTop>
+            <exportImages dynamic="true"><![CDATA[true]]></exportImages>
+            <showBackgroundPreviewInInterface dynamic="true"><![CDATA[true]]></showBackgroundPreviewInInterface>
+            <exportSounds dynamic="true"><![CDATA[true]]></exportSounds>
+            <exportSubtitles dynamic="true"><![CDATA[true]]></exportSubtitles>
+            <exportVideos dynamic="true"><![CDATA[true]]></exportVideos>
+            <exportDirectory dynamic="true"><![CDATA[/Users/francesmaurer/Documents/Algorithmic documentary/index.html]]></exportDirectory>
+        </Settings>
+    </settings>
+    <interfaces>
+        <Interface>
+            <id><![CDATA[11]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[3-LINK_LinksOnTop]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[2]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[3]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00313f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[4]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[192]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00307f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[5]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff0030ff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[6]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[7]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[973]]></x>
+                    <y><![CDATA[501]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[8]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[9]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[10]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[10]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[96]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[21]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[3-LINK_LinksSeperate]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[12]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[13]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[576]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00313f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[14]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[341]]></x>
+                    <y><![CDATA[576]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00307f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[15]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[576]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff0030ff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[16]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[17]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[973]]></x>
+                    <y><![CDATA[501]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[18]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[19]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[20]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[10]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[96]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[33]]></id>
+            <version><![CDATA[1]]></version>
+            <name><![CDATA[6-LINK_LinksOnTop]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[22]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[23]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[4]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#3232ff4c]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[24]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00313f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[25]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[341]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff00307f]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[26]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[0]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ff0030ff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[27]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[552]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[28]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[973]]></x>
+                    <y><![CDATA[501]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[29]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[30]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[31]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[10]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[96]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[32]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[192]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[192]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[3]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#3232ff4c]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[none]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[212]]></id>
+            <version><![CDATA[7]]></version>
+            <name><![CDATA[copy of 3-LINK_LinksOnTop]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[1473]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[123]]></x>
+                    <y><![CDATA[23]]></y>
+                    <width><![CDATA[789]]></width>
+                    <height><![CDATA[441]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1474]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[342]]></x>
+                    <y><![CDATA[577]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[191]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[0]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ffffffff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1475]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[682]]></x>
+                    <y><![CDATA[464]]></y>
+                    <width><![CDATA[342]]></width>
+                    <height><![CDATA[191]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[1]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ffffffff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1476]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Preview]]></widgetType>
+                    <x><![CDATA[2]]></x>
+                    <y><![CDATA[464]]></y>
+                    <width><![CDATA[339]]></width>
+                    <height><![CDATA[190]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                    <previewTextMode dynamic="true"><![CDATA[always]]></previewTextMode>
+                    <index dynamic="true"><![CDATA[2]]></index>
+                    <previewOverlayColor dynamic="true"><![CDATA[#ffffffff]]></previewOverlayColor>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <horizontalTextAlignment dynamic="true"><![CDATA[center]]></horizontalTextAlignment>
+                    <fontFamily dynamic="true"><![CDATA[Arial]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <fontColor dynamic="true"><![CDATA[#FFFFFFFF]]></fontColor>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <previewTextEffect dynamic="true"><![CDATA[animate]]></previewTextEffect>
+                    <verticalTextAlignment dynamic="true"><![CDATA[middle]]></verticalTextAlignment>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1477]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[929]]></x>
+                    <y><![CDATA[706]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1478]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1479]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1480]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[341]]></x>
+                    <y><![CDATA[464]]></y>
+                    <width><![CDATA[341]]></width>
+                    <height><![CDATA[114]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1481]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[302]]></x>
+                    <y><![CDATA[9]]></y>
+                    <width><![CDATA[430]]></width>
+                    <height><![CDATA[7]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[false]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+            </widgets>
+        </Interface>
+        <Interface>
+            <id><![CDATA[1493]]></id>
+            <version><![CDATA[3]]></version>
+            <name><![CDATA[end]]></name>
+            <gridWidth><![CDATA[341]]></gridWidth>
+            <gridHeight><![CDATA[192]]></gridHeight>
+            <clickSoundVolume><![CDATA[1.0]]></clickSoundVolume>
+            <widgets>
+                <Widget>
+                    <id><![CDATA[1500]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.MainMedia]]></widgetType>
+                    <x><![CDATA[-1]]></x>
+                    <y><![CDATA[104]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[576]]></height>
+                    <scalingPolicy dynamic="true"><![CDATA[fill]]></scalingPolicy>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1501]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.Scrubber]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[100]]></y>
+                    <width><![CDATA[1024]]></width>
+                    <height><![CDATA[5]]></height>
+                    <barWidth dynamic="true"><![CDATA[5]]></barWidth>
+                    <backgroundColor dynamic="true"><![CDATA[#000000ff]]></backgroundColor>
+                    <barHeight dynamic="true"><![CDATA[5]]></barHeight>
+                    <interactive dynamic="true"><![CDATA[true]]></interactive>
+                    <foregroundColor dynamic="true"><![CDATA[#ffffffff]]></foregroundColor>
+                    <loadingColor dynamic="true"><![CDATA[#ddddddff]]></loadingColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1502]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.FullscreenButton]]></widgetType>
+                    <x><![CDATA[969]]></x>
+                    <y><![CDATA[694]]></y>
+                    <width><![CDATA[32]]></width>
+                    <height><![CDATA[32]]></height>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1503]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1504]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[0]]></x>
+                    <y><![CDATA[384]]></y>
+                    <width><![CDATA[0]]></width>
+                    <height><![CDATA[80]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+                <Widget>
+                    <id><![CDATA[1505]]></id>
+                    <version><![CDATA[1]]></version>
+                    <widgetType><![CDATA[org.korsakow.widget.InsertText]]></widgetType>
+                    <x><![CDATA[240]]></x>
+                    <y><![CDATA[684]]></y>
+                    <width><![CDATA[585]]></width>
+                    <height><![CDATA[78]]></height>
+                    <fontFamily dynamic="true"><![CDATA[Courier]]></fontFamily>
+                    <fontSize dynamic="true"><![CDATA[1.0]]></fontSize>
+                    <textDecoration dynamic="true"><![CDATA[none]]></textDecoration>
+                    <fontStyle dynamic="true"><![CDATA[normal]]></fontStyle>
+                    <fontWeight dynamic="true"><![CDATA[normal]]></fontWeight>
+                    <fontColor dynamic="true"><![CDATA[#ffffffff]]></fontColor>
+                </Widget>
+            </widgets>
+        </Interface>
+    </interfaces>
+    <videos>
+        <Video>
+            <id><![CDATA[38]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[Vanishing of the Bees - Beekeeper Leaks EPA Document]]></name>
+            <filename><![CDATA[Vanishing of the Bees - Beekeeper Leaks EPA Document.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[39]]></id>
+            <version><![CDATA[29]]></version>
+            <name><![CDATA[Capitalism and Bees]]></name>
+            <filename><![CDATA[Capitalism and Bees.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[43]]></id>
+            <version><![CDATA[23]]></version>
+            <name><![CDATA[Michael Pollan - Monoculture]]></name>
+            <filename><![CDATA[Michael Pollan - Monoculture.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[45]]></id>
+            <version><![CDATA[27]]></version>
+            <name><![CDATA[Climate change and bees]]></name>
+            <filename><![CDATA[Climate change and bees.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[47]]></id>
+            <version><![CDATA[24]]></version>
+            <name><![CDATA[Truckloads of bees]]></name>
+            <filename><![CDATA[Truckloads of bees.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[48]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[Truckloads visual]]></name>
+            <filename><![CDATA[Truckloads visual.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[51]]></id>
+            <version><![CDATA[21]]></version>
+            <name><![CDATA[Bees just took off]]></name>
+            <filename><![CDATA[Bees just took off.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[53]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[Shipping to CA]]></name>
+            <filename><![CDATA[Shipping to CA.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[55]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[Not enough dead bees]]></name>
+            <filename><![CDATA[Not enough dead bees.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[57]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[Pesticide visual]]></name>
+            <filename><![CDATA[Pesticide visual.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[58]]></id>
+            <version><![CDATA[26]]></version>
+            <name><![CDATA[On Pesticides]]></name>
+            <filename><![CDATA[On Pesticides.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[59]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[Varroa voiceover]]></name>
+            <filename><![CDATA[Varroa voiceover.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[60]]></id>
+            <version><![CDATA[24]]></version>
+            <name><![CDATA[We are causing the problem]]></name>
+            <filename><![CDATA[We are causing the problem.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[61]]></id>
+            <version><![CDATA[24]]></version>
+            <name><![CDATA[Sugar syrup and pesticides]]></name>
+            <filename><![CDATA[FOUNDUPS®COM Are US beekeepers feeding bees toxic GMOpesticide sugar water syrup.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[62]]></id>
+            <version><![CDATA[21]]></version>
+            <name><![CDATA[Selling queens]]></name>
+            <filename><![CDATA[Selling queens.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[63]]></id>
+            <version><![CDATA[21]]></version>
+            <name><![CDATA[Pesticide effect on nervous system]]></name>
+            <filename><![CDATA[Pesticide effect on nervous system.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[64]]></id>
+            <version><![CDATA[21]]></version>
+            <name><![CDATA[Varroa effects]]></name>
+            <filename><![CDATA[Varroa effects.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[65]]></id>
+            <version><![CDATA[21]]></version>
+            <name><![CDATA["Africanized" bees]]></name>
+            <filename><![CDATA[More Than Honey - Excerpt 3 (1).mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[66]]></id>
+            <version><![CDATA[20]]></version>
+            <name><![CDATA[Honeybees vs. Native Pollinators - Tips from a Wildlife Biologist]]></name>
+            <filename><![CDATA[Honeybees vs. Native Pollinators - Tips from a Wildlife Biologist.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[67]]></id>
+            <version><![CDATA[25]]></version>
+            <name><![CDATA[FREE Bees! How to capture and hive a swarm of honey bees]]></name>
+            <filename><![CDATA[FREE Bees! How to capture and hive a swarm of honey bees.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[68]]></id>
+            <version><![CDATA[22]]></version>
+            <name><![CDATA[Spring 10 days early]]></name>
+            <filename><![CDATA[Spring 10 days early.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[69]]></id>
+            <version><![CDATA[22]]></version>
+            <name><![CDATA[European vs. Asian Honeybee]]></name>
+            <filename><![CDATA[European vs. Asian Honeybee.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[70]]></id>
+            <version><![CDATA[20]]></version>
+            <name><![CDATA[Soaker hose with honeybee health and corn syrup mixed 5050]]></name>
+            <filename><![CDATA[Soaker hose with honeybee health and corn syrup mixed 5050.mp4]]></filename>
+        </Video>
+        <Video>
+            <id><![CDATA[77]]></id>
+            <version><![CDATA[22]]></version>
+            <name><![CDATA[Beekeeping for the people]]></name>
+            <filename><![CDATA[Beekeeping for the people.mp4]]></filename>
+        </Video>
+    </videos>
+    <sounds/>
+    <images/>
+    <snus>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[commercialism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[exploitation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[genetic]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[pesticide]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1302]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1303]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1304]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[exploitation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[industry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[parasite]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[40]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Vanishing of the Bees - Beekeeper Leaks EPA Document]]></name>
+            <mainMediaId><![CDATA[38]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[38]]></previewMediaId>
+            <previewText><![CDATA[pesticides enter soil, plants, and groundwater.]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[capitalism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[commercialism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[domination]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1308]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1309]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1310]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[commercialism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[monoculture]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[41]]></id>
+            <version><![CDATA[13]]></version>
+            <name><![CDATA[Capitalism and Bees]]></name>
+            <mainMediaId><![CDATA[39]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[3]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[39]]></previewMediaId>
+            <previewText><![CDATA[bees become profit.]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[capitalism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[industry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[monoculture]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1296]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1297]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1298]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[commercialism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[exploitation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[44]]></id>
+            <version><![CDATA[7]]></version>
+            <name><![CDATA[Michael Pollan - Monoculture]]></name>
+            <mainMediaId><![CDATA[43]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[43]]></previewMediaId>
+            <previewText><![CDATA[Michael Pollan explains monoculture]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[behavior]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[ecology]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1290]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1291]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1292]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[adaptation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[genetic]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[nature]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[46]]></id>
+            <version><![CDATA[11]]></version>
+            <name><![CDATA[Climate change and bees]]></name>
+            <mainMediaId><![CDATA[45]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[45]]></previewMediaId>
+            <previewText><![CDATA[how climate change affects bees]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[commercialism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[exploitation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1278]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1279]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1280]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[capitalism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[domination]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[behavior]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[49]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Truckloads visual]]></name>
+            <mainMediaId><![CDATA[48]]></mainMediaId>
+            <rating><![CDATA[1.3599997]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[48]]></previewMediaId>
+            <previewText><![CDATA[bees are shipped like mass cargo across state lines]]></previewText>
+            <insertText><![CDATA[trucking honeybees across great distances leads to death, dehydration, stress, and lets honeybees spread foreign diseases to native bees.]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[capitalism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[monoculture]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1284]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[12000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1285]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1286]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[capitalism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[ecology]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[industry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[50]]></id>
+            <version><![CDATA[8]]></version>
+            <name><![CDATA[Truckloads of bees]]></name>
+            <mainMediaId><![CDATA[47]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[47]]></previewMediaId>
+            <previewText><![CDATA[bees travel cross-country to pollinate California's almonds]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1230]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[8000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1231]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1232]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[behavior]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[community]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[nature]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[52]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Bees just took off]]></name>
+            <mainMediaId><![CDATA[51]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[true]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[51]]></previewMediaId>
+            <previewText><![CDATA[]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[capitalism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[society]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1314]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1315]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1316]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[community]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[54]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Shipping to CA]]></name>
+            <mainMediaId><![CDATA[53]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[53]]></previewMediaId>
+            <previewText><![CDATA[beekeepers are forced into unethical practices to stay in business]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[ecology]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[nature]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1326]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1327]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1328]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[adaptation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[genetic]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[pesticide]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[56]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Not enough dead bees]]></name>
+            <mainMediaId><![CDATA[55]]></mainMediaId>
+            <rating><![CDATA[2.8000004]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[55]]></previewMediaId>
+            <previewText><![CDATA[bees are disappearing without explanation]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[community]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[solutions]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules/>
+            <id><![CDATA[81]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Beekeeping for the people]]></name>
+            <mainMediaId><![CDATA[77]]></mainMediaId>
+            <rating><![CDATA[0.70000005]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[1493]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[true]]></ender>
+            <previewMediaId><![CDATA[77]]></previewMediaId>
+            <previewText><![CDATA[community beekeeping provides the best of all worlds]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[commercialism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[genetic]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[industry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1458]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1459]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1460]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[capitalism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[monoculture]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[domination]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[88]]></id>
+            <version><![CDATA[7]]></version>
+            <name><![CDATA[Soaker hose with honeybee health and corn syrup mixed 5050]]></name>
+            <mainMediaId><![CDATA[70]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[70]]></previewMediaId>
+            <previewText><![CDATA[honeybees are fed corn syrup]]></previewText>
+            <insertText><![CDATA[feeding bees corn syrup rather than honey or sugar syrup is like only eating fast food.]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[exploitation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[genetic]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[pesticide]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1380]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[8000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1381]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1382]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[nature]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[pesticide]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[152]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Pesticide visual]]></name>
+            <mainMediaId><![CDATA[57]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[57]]></previewMediaId>
+            <previewText><![CDATA[pesticides without moderation]]></previewText>
+            <insertText><![CDATA[pesticides tossed haphazardly, exterminating without reservation]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[exploitation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[pesticide]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[society]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1392]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1393]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1394]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[exploitation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[industry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[153]]></id>
+            <version><![CDATA[10]]></version>
+            <name><![CDATA[On Pesticides]]></name>
+            <mainMediaId><![CDATA[58]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[58]]></previewMediaId>
+            <previewText><![CDATA[a beekeeper explains the problems of pesticides]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[adaptation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[nature]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[parasite]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1368]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1369]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1370]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[commercialism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[industry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[pesticide]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[154]]></id>
+            <version><![CDATA[9]]></version>
+            <name><![CDATA[Varroa voiceover]]></name>
+            <mainMediaId><![CDATA[59]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[59]]></previewMediaId>
+            <previewText><![CDATA[varroa mites are taking over bee colonies]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[domination]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[exploitation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[society]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1362]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1363]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1364]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[ecology]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[native]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[solutions]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[155]]></id>
+            <version><![CDATA[8]]></version>
+            <name><![CDATA[We are causing the problem]]></name>
+            <mainMediaId><![CDATA[60]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[60]]></previewMediaId>
+            <previewText><![CDATA[a combination of stressors]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[genetic]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[industry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[pesticide]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1356]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1357]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1358]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[parasite]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[exploitation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[156]]></id>
+            <version><![CDATA[7]]></version>
+            <name><![CDATA[Sugar syrup and pesticides]]></name>
+            <mainMediaId><![CDATA[61]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[61]]></previewMediaId>
+            <previewText><![CDATA[sugar syrup has pesticides]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[commercialism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[exploitation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[industry]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1386]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1387]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1388]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[capitalism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[native]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[community]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[243]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Selling queens]]></name>
+            <mainMediaId><![CDATA[62]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[62]]></previewMediaId>
+            <previewText><![CDATA[beekeepers sell queens]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[genetic]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[pesticide]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1398]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1399]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1400]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[adaptation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[industry]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[pesticide]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[244]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[Pesticide effect on nervous system]]></name>
+            <mainMediaId><![CDATA[63]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[63]]></previewMediaId>
+            <previewText><![CDATA[pesticides attack bees' nervous systems]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[nature]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[parasite]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1410]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1411]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1412]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[adaptation]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[genetic]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[parasite]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[245]]></id>
+            <version><![CDATA[6]]></version>
+            <name><![CDATA[Varroa effects]]></name>
+            <mainMediaId><![CDATA[64]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[64]]></previewMediaId>
+            <previewText><![CDATA[varroa mites take over beehives]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[adaptation]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[community]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[nature]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1416]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1417]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1418]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[behavior]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[ecology]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[solutions]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[246]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA["Africanized" bees]]></name>
+            <mainMediaId><![CDATA[65]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[65]]></previewMediaId>
+            <previewText><![CDATA["Africanized" bees are perhaps the future]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[native]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1422]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1423]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1424]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[nature]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[parasite]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[pesticide]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[247]]></id>
+            <version><![CDATA[5]]></version>
+            <name><![CDATA[Honeybees vs. Native Pollinators - Tips from a Wildlife Biologist]]></name>
+            <mainMediaId><![CDATA[66]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[clear]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[66]]></previewMediaId>
+            <previewText><![CDATA[honeybees clash with native bees]]></previewText>
+            <insertText><![CDATA[when traveling, honeybees spread diseases and mites to native bees, who have no immunity. native bees are responsible for most noncommercial pollination.]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[community]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[solutions]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1470]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1471]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1472]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[community]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[native]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[solutions]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[248]]></id>
+            <version><![CDATA[10]]></version>
+            <name><![CDATA[FREE Bees! How to capture and hive a swarm of honey bees]]></name>
+            <mainMediaId><![CDATA[67]]></mainMediaId>
+            <rating><![CDATA[0.90000004]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[2]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[67]]></previewMediaId>
+            <previewText><![CDATA[capture of swarms can save bees]]></previewText>
+            <insertText><![CDATA[capturing wild swarms and putting them in hives can save them from extermination]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[ecology]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[society]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1446]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[10000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1447]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1448]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[capitalism]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[ecology]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[nature]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[249]]></id>
+            <version><![CDATA[8]]></version>
+            <name><![CDATA[Spring 10 days early]]></name>
+            <mainMediaId><![CDATA[68]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[68]]></previewMediaId>
+            <previewText><![CDATA[climate change is changing the seasons.]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+        <Snu>
+            <keywords>
+                <Keyword>
+                    <value><![CDATA[commercialism]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[native]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+                <Keyword>
+                    <value><![CDATA[parasite]]></value>
+                    <weight><![CDATA[1.0]]></weight>
+                </Keyword>
+            </keywords>
+            <rules>
+                <Rule>
+                    <id><![CDATA[1452]]></id>
+                    <name><![CDATA[org.korsakow.rule.Search]]></name>
+                    <version><![CDATA[1]]></version>
+                    <type><![CDATA[org.korsakow.rule.Search]]></type>
+                    <triggerTime><![CDATA[15000]]></triggerTime>
+                    <rules>
+                        <Rule>
+                            <id><![CDATA[1453]]></id>
+                            <name><![CDATA[org.korsakow.rule.ClearScores]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.ClearScores]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                        </Rule>
+                        <Rule>
+                            <id><![CDATA[1454]]></id>
+                            <name><![CDATA[org.korsakow.rule.KeywordLookup]]></name>
+                            <version><![CDATA[1]]></version>
+                            <type><![CDATA[org.korsakow.rule.KeywordLookup]]></type>
+                            <triggerTime><![CDATA[0]]></triggerTime>
+                            <keywords>
+                                <Keyword>
+                                    <value><![CDATA[genetic]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[parasite]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                                <Keyword>
+                                    <value><![CDATA[society]]></value>
+                                    <weight><![CDATA[1.0]]></weight>
+                                </Keyword>
+                            </keywords>
+                        </Rule>
+                    </rules>
+                </Rule>
+            </rules>
+            <id><![CDATA[250]]></id>
+            <version><![CDATA[8]]></version>
+            <name><![CDATA[European vs. Asian Honeybee]]></name>
+            <mainMediaId><![CDATA[69]]></mainMediaId>
+            <rating><![CDATA[1.0]]></rating>
+            <backgroundSoundMode><![CDATA[keep]]></backgroundSoundMode>
+            <backgroundSoundVolume><![CDATA[1.0]]></backgroundSoundVolume>
+            <backgroundSoundLooping><![CDATA[false]]></backgroundSoundLooping>
+            <interfaceId><![CDATA[212]]></interfaceId>
+            <lives><![CDATA[1]]></lives>
+            <looping><![CDATA[false]]></looping>
+            <maxLinks><![CDATA[1]]></maxLinks>
+            <starter><![CDATA[false]]></starter>
+            <ender><![CDATA[false]]></ender>
+            <previewMediaId><![CDATA[69]]></previewMediaId>
+            <previewText><![CDATA[the profit of european honeybees overwhelms native bees.]]></previewText>
+            <insertText><![CDATA[]]></insertText>
+        </Snu>
+    </snus>
+    <patterns/>
+    <texts/>
+    <resources>
+        <Folder name="/">
+            <Folder name="Interface Examples">
+                <Resource class="org.korsakow.resource.Interface"
+                    id="212" name="copy of 3-LINK_LinksOnTop"/>
+                <Resource class="org.korsakow.resource.Interface"
+                    id="11" name="3-LINK_LinksOnTop"/>
+                <Resource class="org.korsakow.resource.Interface"
+                    id="21" name="3-LINK_LinksSeperate"/>
+                <Resource class="org.korsakow.resource.Interface"
+                    id="1493" name="end"/>
+                <Resource class="org.korsakow.resource.Interface"
+                    id="33" name="6-LINK_LinksOnTop"/>
+            </Folder>
+            <Resource class="org.korsakow.resource.Snu" id="52" name="Bees just took off"/>
+            <Resource class="org.korsakow.resource.Snu" id="41" name="Capitalism and Bees"/>
+            <Resource class="org.korsakow.resource.Snu" id="40" name="Vanishing of the Bees - Beekeeper Leaks EPA Document"/>
+            <Resource class="org.korsakow.resource.Snu" id="44" name="Michael Pollan - Monoculture"/>
+            <Resource class="org.korsakow.resource.Snu" id="46" name="Climate change and bees"/>
+            <Resource class="org.korsakow.resource.Snu" id="50" name="Truckloads of bees"/>
+            <Resource class="org.korsakow.resource.Snu" id="49" name="Truckloads visual"/>
+            <Resource class="org.korsakow.resource.Snu" id="54" name="Shipping to CA"/>
+            <Resource class="org.korsakow.resource.Snu" id="56" name="Not enough dead bees"/>
+            <Resource class="org.korsakow.resource.Snu" id="152" name="Pesticide visual"/>
+            <Resource class="org.korsakow.resource.Snu" id="153" name="On Pesticides"/>
+            <Resource class="org.korsakow.resource.Snu" id="154" name="Varroa voiceover"/>
+            <Resource class="org.korsakow.resource.Snu" id="155" name="We are causing the problem"/>
+            <Resource class="org.korsakow.resource.Snu" id="156" name="Sugar syrup and pesticides"/>
+            <Resource class="org.korsakow.resource.Snu" id="243" name="Selling queens"/>
+            <Resource class="org.korsakow.resource.Snu" id="244" name="Pesticide effect on nervous system"/>
+            <Resource class="org.korsakow.resource.Snu" id="245" name="Varroa effects"/>
+            <Resource class="org.korsakow.resource.Snu" id="246" name="&quot;Africanized&quot; bees"/>
+            <Resource class="org.korsakow.resource.Snu" id="247" name="Honeybees vs. Native Pollinators - Tips from a Wildlife Biologist"/>
+            <Resource class="org.korsakow.resource.Snu" id="248" name="FREE Bees! How to capture and hive a swarm of honey bees"/>
+            <Resource class="org.korsakow.resource.Snu" id="249" name="Spring 10 days early"/>
+            <Resource class="org.korsakow.resource.Snu" id="250" name="European vs. Asian Honeybee"/>
+            <Resource class="org.korsakow.resource.Snu" id="88" name="Soaker hose with honeybee health and corn syrup mixed 5050"/>
+            <Resource class="org.korsakow.resource.Snu" id="81" name="Beekeeping for the people"/>
+        </Folder>
+    </resources>
+</korsakow>
